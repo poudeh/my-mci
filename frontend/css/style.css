@@ -1,0 +1,148 @@
+@import "reset.css";
+@import "fonts.css";
+@import "sectionLeft.css";
+@import "sectionRight.css";
+
+:root {
+  --white-50: #ffffff;
+  --white-100: #f6f6f6;
+  --white-200: #e7e7e7;
+
+  --blue-100:#dbeafe ;
+  --blue-200: #bfdbfe;
+  --blue-600: #2563eb;
+
+  --gray-600: #707070;
+  --gray-650: #818181;
+  --gray-700: #626161;
+}
+
+/*
+helper classes
+
+*/
+.Roboto-l {
+  font-family: "Roboto-light";
+}
+
+.Roboto-m {
+  font-family: "Roboto-medium";
+}
+
+.Roboto-b {
+  font-family: "Roboto-bold";
+}
+
+.Roboto-bb {
+  font-family: "Roboto-black";
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body,
+* {
+  font-family: "Roboto-medium";
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--white-100);
+}
+
+.sections-Container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+}
+
+.section-middle {
+    padding: 20px 0 20px  20px;
+    width: 100%;
+    height: 100%;
+
+
+}
+.section-middle__title {
+font-size: x-large
+}
+.section-middle__banner {
+    background:linear-gradient(270deg, rgba(220, 235, 254, 0.406) 33.85%, rgba(37, 100, 235, 0.406) 100%),url('../img/overlay.jpg'); 
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    gap: 20px;
+    padding: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+.middle-table__title {
+  font-size: larger;
+  padding-bottom: 1rem;
+}
+
+
+
+.banner-content {
+    font-size: 1.5rem;
+    color: var(--white-50);
+
+
+}
+.banner-link {
+color: white;
+
+}
+.banner-link a {
+color: white;
+text-decoration: none;
+}
+
+.chart {
+    width: 100%;
+    height: max-content;
+    
+}
+
+.chart-wrapper {
+    height: max-content;
+    width: 100%;
+
+
+}
+
+.chart-title {
+    font-size: x-large;
+    margin-bottom: 1.2rem;
+}
+
+.section-middle__table tr , .section-middle__table th {
+    padding: 25px 15px;
+
+} 
+
+.section-middle__table {
+  margin-top: 2rem;
+}
